@@ -43,6 +43,7 @@ public class J03_TestingExceptions {
     void testException03(){
     assertThrows(IllegalArgumentException.class,()->yasYazdir(-2));// passed cunku -2 degeri girdik
     assertThrows(IllegalArgumentException.class,()->yasYazdir(12));// passed cunku -2 degeri girdik  Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+
     }
 
     void yasYazdir(int yas){
@@ -54,7 +55,17 @@ public class J03_TestingExceptions {
         }
     }
 
+    @Test
+    @DisplayName("AritmeticException TEST")
+    void testException04(){
+        assertThrows(ArithmeticException.class,()->bol(5,0));//passed cunku 5/0
+        assertThrows(ArithmeticException.class,()->bol(5,1));
 
+    }
+    int bol(int a, int b){
+        return a/b;
+
+    }
 
 
 }
