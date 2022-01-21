@@ -29,7 +29,6 @@ class HesapMakinesiTest {
 
                 ); //tek bir kod blogunda butun test senaryolarimizi test etmis olduk
 
-
         //assertEquals(2.6,HesapMakinesi.carp(2,1.3));
         //assertEquals(4.8,HesapMakinesi.carp(2,2.4));
         //assertEquals(-2.7,HesapMakinesi.carp(-3,0.9));
