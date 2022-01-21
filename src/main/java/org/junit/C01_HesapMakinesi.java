@@ -2,7 +2,7 @@ package org.junit;
 
 import java.util.stream.DoubleStream;
 
-public class HesapMakinesi {
+public class C01_HesapMakinesi {
 
     static double topla(double ... sayi) {
 
